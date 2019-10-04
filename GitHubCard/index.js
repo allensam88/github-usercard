@@ -89,7 +89,9 @@ function cardCreator (object) {
   cardName.textContent = `Name: ${object.data.name}`;
   userName.textContent = `Username: ${object.data.login}`;
   userLocation.textContent = `Location: ${object.data.location}`;
+  userProfile.textContent = `Profile: `
   userURL.href = object.data.html_url;
+  userURL.textContent = `Link to GitHub Profile`;
   followers.textContent = `Followers: ${object.data.followers}`;
   following.textContent = `Following: ${object.data.following}`;
   userBio.textContent = `Bio: ${object.data.bio}`;
